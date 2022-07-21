@@ -1,0 +1,121 @@
+@import '../../style/variables.scss';
+.small {
+  font-size: 14px;
+  padding: 11px 78px;
+  border-radius: 55px;
+  height:48px;
+}
+.medium {
+  font-size: 16px;
+  padding: 12px 74px;
+  border-radius: 55px;
+  height:52px;
+}
+.large {
+  font-size: 18px;
+  padding: 16px 70px;
+  border-radius: 55px;
+  height:65px;
+}
+.primary-f-color{
+ color:$color-neutral-white
+}
+.primary-enabled{
+ background-color:$color-primary-100;
+ border: 1px solid $color-primary-100;
+}
+.primary-hover{
+  background-color:$color-primary-80;
+  border: 1px solid $color-primary-80;
+}
+.primary-actived{
+  background-color:$color-primary-100;
+  box-shadow: inset 0px 70px 0px #00000029;
+}
+.primary-disable{
+  background-color:$color-primary-10;
+  border: 1px solid $color-primary-10;
+}
+
+
+
+
+.secondary-f-color{
+  color:$color-primary-100;
+ }
+ .secondary-enabled{
+  background-color:$color-neutral-white;
+  border: 1px solid $color-primary-100;
+ }
+ .secondary-hover{
+  background-color:$color-primary-10;
+   border: 1px solid $color-primary-100;
+ }
+ .secondary-actived{
+  background-color:$color-primary-30;
+   border: 1px solid $color-primary-100;
+   box-shadow: inset 0px 70px 0px #00000029;
+ }
+ .secondary-disable{
+  background-color:$color-neutral-white;
+   border: 1px solid $color-primary-10;
+   opacity:0.3;
+ }
+
+
+ .warning-f-color{
+  color:$color-neutral-white;
+ }
+ .warning-enabled{
+  background-color:$color-danger-80;
+  border: 1px solid $color-danger-80;
+ }
+ .warning-hover{
+  background-color:$color-danger-60;
+  border: 1px solid $color-danger-60;
+ }
+ .warning-actived{
+  background-color:$color-danger-100;
+  border: 1px solid $color-danger-100;
+   box-shadow: inset 0px 70px 0px #00000029;
+ }
+ .warning-disable{
+  background-color:$color-danger-30;
+  border: 1px solid $color-danger-30;
+ }
+
+ 
+
+ .secondary-warning-f-color{
+  color:$color-danger-80;
+ }
+ .secondary-warning-enabled{
+  background-color:$color-neutral-white;
+  border: 1px solid $color-danger-80;
+ }
+ .secondary-warning-hover{
+  background-color:$color-danger-10;
+  border: 1px solid $color-danger-10;
+ }
+ .secondary-warning-actived{
+  background-color:$color-danger-30;
+  border: 1px solid $color-danger-30;
+   box-shadow: inset 0px 70px 0px #00000029;
+ }
+ .secondary-warning-disable{
+  background-color:$color-neutral-white;
+  border: 1px solid $color-danger-80;
+  opacity: 0.3;
+ }
+
+
+
+
+
+
+
+
+
+
+
+

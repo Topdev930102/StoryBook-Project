@@ -1,0 +1,20 @@
+.number-card{
+  border-radius: 17px 35px 17px;
+  background: #05A5D1;
+  border-radius: 20px;
+  border:1px solid #05A5D1;
+  padding:40px 24px;
+  display: flex;
+  justify-content: flex-end;
+  width: 406px;
+}
+.number-card-label{
+  color: #F1F6FE;
+  font-size:14px;
+
+}
+.number-card-value{
+  color: #FFFFFF;
+  font-size: 22px;
+  text-align: end;
+}
