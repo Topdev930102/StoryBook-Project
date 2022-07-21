@@ -1,18 +1,18 @@
 <template>
  <div>
-  <b-modal v-model="modalShow" class="siglemodal" hide-header hide-backdrop hide-footer>
+  <b-modal v-model="modalShow" class="datemodal" hide-header hide-backdrop hide-footer>
   <div>
-     <p class="text-center">إضافة موسم</p>
+     <p class="text-center f-5">إضافة موسم</p>
   </div>
   <div>
     <div class="py-3">
-         <b-form-input  v-model="value" placeholder="Label" type="text"></b-form-input>
+         <b-form-input  v-model="value" class="input-label px-4" placeholder="Label" type="text"></b-form-input>
     </div>
     <div class="py-3">
-      <b-form-input  v-model="start_date"  type="date"></b-form-input>
+      <b-form-input  v-model="start_date" class="input-date px-4" type="date"></b-form-input>
     </div>
     <div class="py-3">
-         <b-form-input  v-model="end_date"  type="date"></b-form-input>
+         <b-form-input  v-model="end_date" class="input-date px-4" type="date"></b-form-input>
     </div>
    
   </div>

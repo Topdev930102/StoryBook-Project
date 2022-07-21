@@ -1,4 +1,4 @@
-.number-card{
+.wnumber-card{
   border-radius: 17px 35px 17px;
   background: #05A5D1;
   border-radius: 20px;
@@ -7,14 +7,12 @@
   display: flex;
   justify-content: flex-end;
   width: 406px;
+  height: 171px;
 }
-.number-card-label{
+.wnumber-card-label{
   color: #F1F6FE;
-  font-size:14px;
-
 }
-.number-card-value{
+.wnumber-card-value{
   color: #FFFFFF;
-  font-size: 22px;
   text-align: end;
 }

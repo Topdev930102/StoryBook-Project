@@ -1,16 +1,18 @@
-.h-center{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+.chart-color{
+  color:#09CED1;
 }
+
 .chart-card{
   width: 301px;
   height: 390px;
   background: #FFFFFF;
   border-radius: 17px 35px 17px 17px;
   box-shadow: 0px 2px 4px #00000005;
-  border:1px solid black;
+  border:1px solid grey;
   padding:22px 32px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 .chart-title{
   font-size: 22px;
@@ -28,13 +30,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  padding:0px 30px;
 }
 .chart-item{
  display: flex;
  justify-content: space-between;
  align-items: center;
  color:#D7E1EF;
+ font-size: 13px;
 }
 .chart-dot{
   width: 12px;

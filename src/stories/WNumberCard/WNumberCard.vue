@@ -1,13 +1,12 @@
 <template>
 <div>
   <b-card>
-    <div class="number-card">
+    <div class="wnumber-card">
       <div class="d-flex">
-        <div class="text-end">
-         
-          <p class="number-card-label">{{title}}</p>
-          <div class="number-card-value">ريال{{value}}</div>
-           <p class="number-card-label">{{label}}</p>
+        <div class="text-end px-1">
+          <p class="wnumber-card-label f-3">{{title}}</p>
+          <div class="wnumber-card-value f-9">ريال{{value}}</div>
+           <p class="wnumber-card-label f-2">{{label}}</p>
         </div>
         <div>
           <img src="../../assets/wcard.png" width="80" height="80">

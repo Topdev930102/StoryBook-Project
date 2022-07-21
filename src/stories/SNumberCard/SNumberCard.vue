@@ -3,9 +3,9 @@
   <b-card>
     <div class="snumber-card">
       <div class="d-flex">
-        <div>
-          <div class="snumber-card-value">{{value}}</div>
-          <p class="snumber-card-label">{{label}}</p>
+        <div class="px-3">
+          <div class="snumber-card-value f-6">{{value}}</div>
+          <p class="snumber-card-label f-6">{{label}}</p>
         </div>
         <div>
           <img src="../../assets/scard.png" width="66" height="66">

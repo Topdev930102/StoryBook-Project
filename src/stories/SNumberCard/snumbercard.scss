@@ -1,19 +1,17 @@
 .snumber-card{
   border-radius: 17px 35px 17px;
   background: #FFFFFF;
-  border:1px solid black;
+  border:1px solid grey;
   padding:29px 24px;
   display: flex;
   justify-content: flex-end;
   width: 301px;
+  height: 114px;
 }
 .snumber-card-label{
   color:#ACBBD0;
-  font-size:16px;
-
 }
 .snumber-card-value{
   color: #05A4D1;
-  font-size: 22px;
   text-align: end;
 }

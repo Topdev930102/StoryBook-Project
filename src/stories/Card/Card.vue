@@ -1,10 +1,10 @@
 <template>
-<div>
-  <b-card>
+<div >
+  <b-card class="standard-card">
     <div class="d-flex justify-content-between">
       <div class='d-flex py-3' :class="[status?'hidden':'visible']">
         <TabButton :label='"موسمي"' :status="false"></TabButton>
-         <TabButton :label='"موسمي"' :status="false"></TabButton>
+        <TabButton :label='"موسمي"' :status="false"></TabButton>
         <TabButton :label='"موسمي"' :status="true"></TabButton>
       </div>
       <div>

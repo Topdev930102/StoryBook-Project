@@ -1,11 +1,11 @@
 <template>
 <div>
   <b-card>
-    <div class="number-card">
+    <div class="num-card">
       <div class="d-flex">
-        <div>
-          <p class="number-card-label">{{label}}</p>
-          <div class="number-card-value">{{value}}</div>
+        <div class="px-2">
+          <p class="num-card-label f-3">{{label}}</p>
+          <div class="num-card-value f-11">{{value}}</div>
         </div>
         <div>
           <img src="../../assets/card.png" width="80" height="80">

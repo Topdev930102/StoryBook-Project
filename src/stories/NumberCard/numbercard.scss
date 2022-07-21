@@ -1,17 +1,18 @@
-.number-card{
+.num-card{
   border-radius: 20px 50px 0px 20px;
   background: #05A5D1;
   padding:20px 24px;
   display: flex;
   justify-content: flex-end;
   width: 526px;
+  height: 128px;
 }
-.number-card-label{
+.num-card-label{
   color:#F1F6FE;
   font-size:16px;
 
 }
-.number-card-value{
+.num-card-value{
   color: #F1F6FE;
   font-size: 32px;
   text-align: end;
