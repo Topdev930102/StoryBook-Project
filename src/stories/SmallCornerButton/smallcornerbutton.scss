@@ -1,8 +1,15 @@
-.corner-badge{
+@import '../../style/variables.scss';
+
+.corner-badge-card {
+  font-family: 'Jannal';
+  font-size: 16px;
+}
+
+.corner-badge {
   border-radius: 6px 22px 6px 6px;
-  background-color: #E5F6FB;
-  padding:11px 15px; 
-  color: #05A5D1;
-  font-size:16px;
+  background-color: $color-primary-10;
+  padding: 11px 15px;
+  color: $color-primary-100;
+  font-size: 16px;
   max-width: 225px;
 }

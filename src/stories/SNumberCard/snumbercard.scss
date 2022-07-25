@@ -1,17 +1,28 @@
-.snumber-card{
-  border-radius: 17px 35px 17px;
-  background: #FFFFFF;
-  border:1px solid grey;
-  padding:29px 24px;
+@import '../../style/variables.scss';
+
+.snumber-card-body {
+  font-family: 'Jannal';
+}
+
+.snumber-card {
+  border-radius: 17px 35px 17px 17px;
+  background: $color-neutral-white;
+  padding: 29px 24px;
   display: flex;
   justify-content: flex-end;
   width: 301px;
   height: 114px;
 }
-.snumber-card-label{
-  color:#ACBBD0;
+
+.snumber-card-label {
+  color: $color-grey-60;
 }
-.snumber-card-value{
-  color: #05A4D1;
+
+.snumber-card-value {
+  color: $color-primary-100;
   text-align: end;
+}
+
+.snumber-image {
+  margin-left: 24px;
 }

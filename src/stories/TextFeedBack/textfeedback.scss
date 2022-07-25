@@ -1,0 +1,63 @@
+@import '../../style/variables.scss';
+
+.textfield-feedback-card {
+  position: relative;
+  display: inline;
+}
+
+.textfield-feedback-card label {
+  position: absolute;
+  top: -26px;
+  right: 25px;
+  background-color: $color-neutral-white;
+  padding: 0 6px;
+  font-size: 12px;
+}
+
+.textfield-feedback-success {
+  border: 1px solid $color-success-100;
+}
+
+.textfield-feedback-success-message {
+  color: $color-success-100;
+}
+
+.textfield-feedback-warning {
+  border: 1px solid #F6BB05;
+}
+
+.textfield-feedback-warning-message {
+  color: #F6BB05;
+}
+
+.textfield-feedback-error {
+  border: 1px solid $color-danger-80;
+}
+
+.textfield-feedback-error-message {
+  color: $color-danger-80;
+}
+
+.textfield-feedback-information {
+  border: 1px solid $color-grey-60;
+}
+
+.textfield-feedback-information-message {
+  color: $color-grey-60;
+}
+
+.textfield-feedback-label-success {
+  color: $color-success-100;
+}
+
+.textfield-feedback-label-information {
+  color: 1px solid $color-grey-60;
+}
+
+.textfield-feedback-label-warning {
+  color: #F6BB05;
+}
+
+.textfield-feedback-label-error {
+  color: $color-danger-80;
+}

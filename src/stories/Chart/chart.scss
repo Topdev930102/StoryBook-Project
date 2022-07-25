@@ -1,52 +1,73 @@
-.chart-color{
-  color:#09CED1;
+@import '../../style/variables.scss';
+
+.chart-card-body {
+  font-family: 'Jannal';
 }
 
-.chart-card{
+.chart-color {
+  color: #09CED1;
+}
+
+.chart-card {
   width: 301px;
   height: 390px;
-  background: #FFFFFF;
+  background: $color-neutral-white;
   border-radius: 17px 35px 17px 17px;
-  box-shadow: 0px 2px 4px #00000005;
-  border:1px solid grey;
-  padding:22px 32px;
+  padding: 22px 32px;
   display: flex;
+  box-shadow: 0 2px 4px #00000005;
   justify-content: space-between;
   flex-direction: column;
 }
-.chart-title{
+
+.chart-title {
   font-size: 22px;
-  color:#141821;
+  color: #141821;
   font-weight: bold;
 }
-.chart-percent{
-  font-size: 46px;
-  color:#09CED1;
-}
-.chart-header{
 
+.chart-percent {
+  font-size: 46px;
+  color: $color-secondary-100;
 }
-.chart-footer{
+
+.chart-header {}
+
+.chart-donut {
+  position: relative;
+}
+
+.chart-percent {
+  position: absolute;
+  font-size: 46px;
+  color: $color-secondary-100
+}
+
+.chart-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:0px 30px;
+  padding: 0 30px;
 }
-.chart-item{
- display: flex;
- justify-content: space-between;
- align-items: center;
- color:#D7E1EF;
- font-size: 13px;
+
+.chart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #D7E1EF;
+  font-size: 13px;
 }
-.chart-dot{
+
+.chart-dot {
   width: 12px;
   height: 12px;
   border-radius: 100%;
 }
-.bg-sky{
+
+.bg-sky {
   background: #09CDD1
 }
-.bg-grey{
+
+.bg-grey {
   background: #D7E1EF
 }

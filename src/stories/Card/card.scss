@@ -1,6 +1,15 @@
-.standard-card{
+.standard-card {
   width: 558px;
   height: 254px;
-  box-shadow: 0px 10px 30px #D1D5DF4C;
+  box-shadow: 0 10px 30px #D1D5DF4C;
   border-radius: 16px 42px 16px 16px;
+  padding: 0 15px;
+}
+
+.progress-card-content {
+  margin-top: 14px;
+}
+
+.tab-spacing {
+  padding-right: 10px;
 }

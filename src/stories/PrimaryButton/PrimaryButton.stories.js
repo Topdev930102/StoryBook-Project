@@ -8,7 +8,7 @@ export default {
   argTypes: {
     size: {
       control: { type: "select" },
-      options: ["small", "medium", "large"],
+      options: ["xsmall", "small", "medium", "large"],
     },
     status: {
       control: { type: "select" },
@@ -20,7 +20,7 @@ export default {
     },
     icon: {
       control: { type: "select" },
-      options: ["none", "upload", "right"],
+      options: ["none", "power", "question", "back", "book", "pen"],
     },
     label: {
       control: { type: "text" },

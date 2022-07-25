@@ -1,0 +1,58 @@
+@import '../../style/variables.scss';
+
+.main-table{
+  width: 692px;
+  font-size: 16px;
+  font-family: 'Jannal';
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.main-table thead{
+  background-color:$color-primary-10;
+  color:$color-grey-100;
+  height: 64px;
+}
+
+.first-name{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.last-name{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.table-head-middle{
+  width: 10%;
+  padding: 10px 200px;
+}
+
+.table-head-middle{
+  width: 70%;
+}
+
+.table-head-end{
+  width: 20%;
+  padding: 10px 30px;
+}
+
+.sort-icon{
+  width: 10px;
+}
+.table-item{
+  height: 67px;
+}
+
+.main-table tr:nth-child(odd){
+  background-color:$color-grey-10;
+  color:$color-grey-100
+}
+
+.main-table tr:nth-child(even){
+  background-color:$color-neutral-white;
+  color:$color-grey-100
+}

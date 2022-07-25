@@ -1,0 +1,95 @@
+@import '../../style/variables.scss';
+
+.textentry-card {
+  position: relative;
+  display: inline;
+}
+
+.textentry-card label {
+  position: absolute;
+  top: -26px;
+  right: 25px;
+  background-color: $color-neutral-white;
+  padding: 0px 6px;
+  font-size: 12px;
+}
+
+.textentry {
+  height: 52px;
+  border-radius: 33px;
+  font-size: 16px;
+  padding: 18px 20px;
+  width: 100%;
+  padding-left: 175px;
+}
+
+.entry-mark {
+  color: $color-primary-100;
+  position: absolute;
+  left: 20px;
+  top: 0;
+}
+
+.textentry-default {
+  border: 1px solid $color-grey-60;
+}
+
+.textentry-active {
+  border: 1px solid $color-primary-100;
+}
+
+.textentry-filled {
+  border: 1px solid $color-grey-60;
+}
+
+.textentry-readonly {
+  border: 1px solid $color-primary-100;
+}
+
+.textentry-placeholder {
+  border: 1px solid $color-primary-100;
+}
+
+.textentry-label-default {
+  display: none;
+}
+
+.textentry-label-active {
+  color: $color-primary-100
+}
+
+.textentry-label-filled {
+  color: $color-grey-60;
+}
+
+.textentry-label-readonly {
+  color: $color-grey-10
+}
+
+.textentry-label-placeholder {
+  color: $color-primary-100
+}
+
+.textentry-footer {
+  padding-top: 8px;
+}
+
+.textentry-item {
+  padding-left: 12px;
+}
+
+.item-cross {
+  width: 24px;
+  height: 24px;
+  background: $color-primary-30;
+  border-radius: 30px 0px 0px 30px;
+  color: $color-primary-100;
+}
+
+.item-content {
+  height: 24px;
+  background: $color-primary-10;
+  border-radius: 0 30px 30px 0;
+  padding: 6px;
+  color: $color-primary-100;
+}

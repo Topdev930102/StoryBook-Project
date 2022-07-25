@@ -1,13 +1,23 @@
-.datemodal{
+@import '../../style/variables.scss';
 
+.date-card {
+  font-family: 'Jannal';
 }
-.input-label{
-  border: 1px solid #ACBBD0;
+
+.date-modal {}
+
+.date-card-title {
+  font-size: 20px;
+}
+
+.input-label {
+  border: 1px solid $color-grey-60;
   border-radius: 33px;
   height: 52px;
 }
-.input-date{
-  border: 1px solid #ACBBD0;
+
+.input-date {
+  border: 1px solid $color-grey-60;
   border-radius: 33px;
   height: 52px;
 }

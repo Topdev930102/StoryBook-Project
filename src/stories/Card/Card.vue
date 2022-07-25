@@ -1,25 +1,26 @@
 <template>
-<div >
-  <b-card class="standard-card">
-    <div class="d-flex justify-content-between">
-      <div class='d-flex py-3' :class="[status?'hidden':'visible']">
-        <TabButton :label='"موسمي"' :status="false"></TabButton>
-        <TabButton :label='"موسمي"' :status="false"></TabButton>
-        <TabButton :label='"موسمي"' :status="true"></TabButton>
+  <div>
+    <b-card class="standard-card">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class='d-flex py-3' :class="[status ? 'hidden' : 'visible']">
+          <TabButton class="tab-spacing" :label='"موسمي"' :status="false"></TabButton>
+          <TabButton class="tab-spacing" :label='"شهري"' :status="false"></TabButton>
+          <TabButton class="tab-spacing" :label='"أسبوعي"' :status="true"></TabButton>
+        </div>
+        <div>
+          <BadgeButton :label='"احصائيات الدورات الجديدة"' />
+        </div>
       </div>
-      <div>
-        <BadgeButton :label='"احصائيات الدورات الجديدة"'/>
+      <div class="progress-card-content">
+        <div class="py-2">
+          <ProgressBar :status='status' :value='50' />
+        </div>
+        <div class="py-2">
+          <ProgressBar :status='status' :value='50' />
+        </div>
       </div>
-    </div>
-    <div class="py-3">
-      <ProgressBar :status='status' :value='50'/>
-    </div>
-    <div class="py-3">
-       <ProgressBar :status='status' :value='50'/>
-    </div>
-
-  </b-card>
-</div>
+    </b-card>
+  </div>
 </template>
 
 <script>
@@ -31,12 +32,12 @@ import ProgressBar from '../ProgressBar/ProgressBar.vue';
 
 export default {
   name: 'CardElement',
-  props:{
-    status:{
-      type:Boolean,
-      required:true
+  props: {
+    status: {
+      type: Boolean,
+      required: true
     }
   },
-     components: { TabButton, BadgeButton,ProgressBar }
+  components: { TabButton, BadgeButton, ProgressBar }
 };
 </script>

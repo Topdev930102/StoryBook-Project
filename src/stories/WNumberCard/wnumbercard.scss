@@ -1,18 +1,26 @@
-.wnumber-card{
+@import '../../style/variables.scss';
+
+.wnumber-card-body {
+  font-family: 'Jannal';
+}
+
+.wnumber-card {
   border-radius: 17px 35px 17px;
-  background: #05A5D1;
+  background: $color-primary-100;
   border-radius: 20px;
-  border:1px solid #05A5D1;
-  padding:40px 24px;
+  border: 1px solid $color-primary-100;
+  padding: 40px 24px;
   display: flex;
   justify-content: flex-end;
   width: 406px;
   height: 171px;
 }
-.wnumber-card-label{
-  color: #F1F6FE;
+
+.wnumber-card-label {
+  color: $color-grey-10;
 }
-.wnumber-card-value{
-  color: #FFFFFF;
+
+.wnumber-card-value {
+  color: $color-neutral-white;
   text-align: end;
 }

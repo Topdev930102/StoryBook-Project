@@ -1,13 +1,22 @@
-.tab-enable{
- background-color: #05A5D1;
- border:1px solid #05A5D1;
- border-radius: 30px;
- padding:6px 16px;
+@import '../../style/variables.scss';
+
+.tab-button {
+  font-family: 'Jannal';
 }
-.tab-disable{
- background-color: #05A5D11A;
- border-radius: 30px;
- border:1px solid #05A5D11A;
- padding:6px 16px;
- color:#05A5D1
+
+.tab-enable {
+  background-color: $color-primary-100;
+  border: 1px solid $color-primary-100;
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 6px 16px;
+}
+
+.tab-disable {
+  background-color: $color-primary-10;
+  border-radius: 30px;
+  border: 1px solid $color-primary-10;
+  padding: 6px 16px;
+  font-size: 12px;
+  color: $color-primary-100
 }

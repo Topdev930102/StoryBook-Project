@@ -1,0 +1,35 @@
+@import '../../style/variables.scss';
+
+.searchfield {
+  width: 290px;
+  height: 52px;
+  border-radius: 33px;
+  font-size: 16px;
+  padding: 18px 20px;
+}
+
+.searchfield-default {
+  border: 1px solid $color-grey-30;
+}
+
+.searchfield-active {
+  border: 1px solid $color-primary-100;
+}
+
+.search-icon {
+  position: relative;
+  left: -280px;
+}
+
+.search-cancel-icon {
+  position: relative;
+  left: -280px;
+}
+
+.search-active {
+  border: 1px solid $color-grey-30;
+}
+
+.search-inactive {
+  border: 1px solid $color-primary-100;
+}

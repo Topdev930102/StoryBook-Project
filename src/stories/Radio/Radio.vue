@@ -1,9 +1,9 @@
 <template>
-
- <b-form-radio v-model="status" class="radio" 
-    @change.native="onClick"
- ></b-form-radio>
-
+  <div>
+    <input type="radio" class="storybook-radio" value="value" :checked="`${status}`" id="radio" name="radio-group"
+      @click="onClick">
+    <label for="radio" class="radio-label"></label>
+  </div>
 </template>
 <script>
 import './radio.scss';
@@ -11,15 +11,24 @@ import './radio.scss';
 export default {
   name: 'my-radio',
   data() {
-      return {
-        status: true
+    return {
+      status: "",
+      value: false
+    }
+  },
+  methods: {
+    onClick(e) {
+      if (!this.value) {
+        this.status = "checked";
+        this.value = true;
       }
-    },
-    methods:{
-      onClick(){
-        this.status=!this.status;
+      else {
+        this.status = "";
+        this.value = false;
       }
 
     }
- };
+
+  }
+};
 </script>

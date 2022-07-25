@@ -1,21 +1,45 @@
 @import '../../style/variables.scss';
-.progress-value{
-  font-size: 14px;
-  color:$color-primary-100;
-  font-size: 16px;
+
+.progressbar-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 494px;
+  height: 42px;
+  color: $color-grey-60;
+  font-family: 'Jannal';
 }
 
-.pregress-active{
-  font-size: 18px;
-  color:#141821
+.progress-left {}
+
+.progress-right {
+  height: 7px;
 }
-.progress-disable{
-  font-size:14px;
-  color:#ACBBD0
+
+.progress-percent {
+  display: flex;
+  width: 100%;
+  height: 7px;
 }
-.visible{
- visibility: visible;
+
+.progress-left {
+  background-color: $color-grey-10;
 }
-.hidden{
- visibility: hidden;
+
+.progress-right {
+  background-color: $color-primary-100;
+}
+
+.percentage {
+  color: $color-primary-100;
+  padding-top: 8px;
+}
+
+.percentage-limit-inactive {
+  color: $color-grey-60;
+}
+
+.percentage-limit-active {
+  color: $color-grey-100;
+  font-size: 16px;
 }

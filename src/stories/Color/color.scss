@@ -1,0 +1,39 @@
+@import '../../style/variables.scss';
+
+.color-card {
+  width: 498px;
+  height: 131px;
+  border: 1px solid $color-grey-60;
+  border-radius: 33px;
+  padding: 26px 12px;
+  font-family: 'Jannal';
+  position: relative;
+  display: inline;
+}
+
+.color-mark {
+  color: $color-grey-100;
+  position: absolute;
+  right: -1px;
+  top: -15px;
+  padding: 0px 19px;
+  background-color: white;
+}
+
+.color-picker {
+  position: relative;
+  visibility: hidden;
+  width: 0;
+  left: -35px;
+}
+
+.color-content {
+  border: 3px dashed $color-grey-60;
+  border-radius: 36px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 6px 8px;
+  width: 460px;
+  color: $color-grey-60;
+}

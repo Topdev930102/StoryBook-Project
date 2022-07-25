@@ -1,0 +1,147 @@
+@import '../../style/variables.scss';
+
+.whole-sidebar {
+  padding-left: 200px;
+  font-family: 'Jannal';
+}
+
+.sidebar {
+  width: 297px;
+  height: 918px;
+}
+
+.sidebar-collapse {
+  width: 147px;
+  height: 918px;
+}
+
+.sidebar-title {
+  width: 163px;
+  height: 56px;
+  background: $color-primary-100;
+  border: solid 1px $color-neutral-white;
+  border-radius: 0 0 0 30px;
+  color: $color-neutral-white;
+}
+
+.sidebar-collapse-title {
+  width: 90px;
+  height: 31px;
+  background: $color-primary-100;
+  border: solid 1px $color-neutral-white;
+  border-radius: 0 0 0 18px;
+  color: $color-neutral-white;
+}
+
+.sidebar-icon {
+  position: absolute;
+  top: 146px;
+  left: 242px;
+}
+
+
+.sidebar-collapse-icon {
+  position: absolute;
+  top: 146px;
+  left: 242px;
+}
+
+.sidebar-header {
+  width: 274px;
+  height: 122px;
+  background: $color-primary-100;
+  border-radius: 0 0 0 80px;
+  margin-bottom: 143px;
+  margin-left: 22px;
+}
+
+.sidebar-collapse-header {
+  width: 122px;
+  height: 122px;
+  background: $color-primary-100;
+  border-radius: 0 0 0 80px;
+  margin-bottom: 143px;
+  margin-left: 22px;
+  padding-top: 32px;
+}
+
+.sidebar-tab {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 44px;
+  padding-right: 22px;
+}
+
+.sidebar-collapse-tab {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 44px;
+  padding-right: 22px;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 231px;
+  height: 55px;
+  color: grey;
+  border-radius: 15px;
+  padding: 12px 15px;
+}
+
+.sidebar-item:hover {
+  background-color: #E5F6FB;
+  color: #05A5D1;
+  cursor: pointer;
+}
+
+.sidebar-collapse-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 231px;
+  height: 55px;
+  color: $color-grey-80;
+  border-radius: 15px;
+}
+
+.sidebar-collapse-item:hover {
+  background-color: $color-primary-10;
+  color: $color-primary-100;
+  cursor: pointer;
+}
+
+.sidebar-footer {
+  padding-left: 45px;
+  margin-top: 100px;
+}
+
+.sidebar-collapse-footer {
+  margin-top: 100px;
+  padding-left: 83px;
+}
+
+.sidebar-collapse-footer-icon {
+  padding-right: 27px;
+  padding-bottom: 40px;
+}
+
+.sidebar-footer-item {
+  padding-right: 25px;
+}
+
+
+.tooltip-item {
+  width: 188px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 26px;
+  padding-top: 12px;
+  padding-bottom: 16px;
+  font-size: 15px;
+}
+
+.tooltip-item:hover {
+  cursor: pointer;
+}

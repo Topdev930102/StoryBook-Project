@@ -1,121 +1,177 @@
 @import '../../style/variables.scss';
+
+.button-card {
+  font-family: 'Jannal';
+}
+
+.button-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.xsmall {
+  font-size: 14px;
+  padding: 9px 0;
+  border-radius: 26px;
+  height: 32px;
+  letter-spacing: 0;
+  width: 123px;
+}
+
 .small {
   font-size: 14px;
-  padding: 11px 78px;
+  padding: 11px 0;
   border-radius: 55px;
-  height:48px;
+  height: 48px;
+  width: 212px;
 }
+
 .medium {
   font-size: 16px;
-  padding: 12px 74px;
+  padding: 12px 0;
   border-radius: 55px;
-  height:52px;
+  height: 52px;
+  width: 212px;
 }
+
 .large {
   font-size: 18px;
-  padding: 16px 70px;
+  padding: 16px 0;
   border-radius: 55px;
-  height:65px;
+  height: 65px;
+  font-family: 'A Jannat LT';
+  width: 212px;
 }
-.primary-f-color{
- color:$color-neutral-white
-}
-.primary-enabled{
- background-color:$color-primary-100;
- border: 1px solid $color-primary-100;
-}
-.primary-hover{
-  background-color:$color-primary-80;
+
+.primary-btn:hover {
+  background-color: $color-primary-80;
   border: 1px solid $color-primary-80;
 }
-.primary-actived{
-  background-color:$color-primary-100;
+
+.primary-f-color {
+  color: $color-neutral-white
+}
+
+.primary-enabled {
+  background-color: $color-primary-100;
+  border: 1px solid $color-primary-100;
+}
+
+.primary-hover {
+  background-color: $color-primary-80;
+  border: 1px solid $color-primary-80;
+}
+
+.primary-actived {
+  background-color: $color-primary-100;
   box-shadow: inset 0px 70px 0px #00000029;
 }
-.primary-disable{
-  background-color:$color-primary-10;
+
+.primary-disable {
+  background-color: $color-primary-10;
   border: 1px solid $color-primary-10;
 }
 
-
-
-
-.secondary-f-color{
-  color:$color-primary-100;
- }
- .secondary-enabled{
-  background-color:$color-neutral-white;
+.secondary-btn:hover {
+  background-color: $color-primary-10;
   border: 1px solid $color-primary-100;
- }
- .secondary-hover{
-  background-color:$color-primary-10;
-   border: 1px solid $color-primary-100;
- }
- .secondary-actived{
-  background-color:$color-primary-30;
-   border: 1px solid $color-primary-100;
-   box-shadow: inset 0px 70px 0px #00000029;
- }
- .secondary-disable{
-  background-color:$color-neutral-white;
-   border: 1px solid $color-primary-10;
-   opacity:0.3;
- }
+  color: $color-primary-100;
+}
 
+.secondary-f-color {
+  color: $color-primary-100;
+}
 
- .warning-f-color{
-  color:$color-neutral-white;
- }
- .warning-enabled{
-  background-color:$color-danger-80;
-  border: 1px solid $color-danger-80;
- }
- .warning-hover{
-  background-color:$color-danger-60;
+.secondary-enabled {
+  background-color: $color-neutral-white;
+  border: 1px solid $color-primary-100;
+}
+
+.secondary-hover {
+  background-color: $color-primary-10;
+  border: 1px solid $color-primary-100;
+  color: $color-primary-100;
+}
+
+.secondary-actived {
+  background-color: $color-primary-30;
+  border: 1px solid $color-primary-100;
+}
+
+.secondary-disable {
+  background-color: $color-neutral-white;
+  border: 1px solid $color-primary-10;
+  color: $color-primary-10;
+}
+
+.warning-btn {
+  background-color: $color-danger-60;
   border: 1px solid $color-danger-60;
- }
- .warning-actived{
-  background-color:$color-danger-100;
+}
+
+.warning-btn:hover {
+  background-color: $color-danger-60;
+  border: 1px solid $color-danger-60;
+}
+
+.warning-f-color {
+  color: $color-neutral-white;
+}
+
+.warning-enabled {
+  background-color: $color-danger-80;
+  border: 1px solid $color-danger-80;
+}
+
+.warning-hover {
+  background-color: $color-danger-60;
+  border: 1px solid $color-danger-60;
+}
+
+.warning-actived {
+  background-color: $color-danger-100;
   border: 1px solid $color-danger-100;
-   box-shadow: inset 0px 70px 0px #00000029;
- }
- .warning-disable{
-  background-color:$color-danger-30;
+}
+
+.warning-disable {
+  background-color: $color-danger-30;
   border: 1px solid $color-danger-30;
- }
+}
 
- 
+.secondary-warning-btn:hover {
+  background-color: $color-danger-10;
+  border: 1px solid $color-danger-100;
+  color: $color-danger-100
+}
 
- .secondary-warning-f-color{
-  color:$color-danger-80;
- }
- .secondary-warning-enabled{
-  background-color:$color-neutral-white;
+.secondary-warning-f-color {
+  color: $color-danger-80;
+}
+
+.secondary-warning-enabled {
+  background-color: $color-neutral-white;
   border: 1px solid $color-danger-80;
- }
- .secondary-warning-hover{
-  background-color:$color-danger-10;
+}
+
+.secondary-warning-hover {
+  background-color: $color-danger-10;
+  border: 1px solid $color-danger-100;
+  color: $color-danger-100
+}
+
+.secondary-warning-actived {
+  background-color: $color-danger-30;
+  border: 1px solid $color-danger-100;
+}
+
+.secondary-warning-disable {
+  background-color: $color-neutral-white;
   border: 1px solid $color-danger-10;
- }
- .secondary-warning-actived{
-  background-color:$color-danger-30;
-  border: 1px solid $color-danger-30;
-   box-shadow: inset 0px 70px 0px #00000029;
- }
- .secondary-warning-disable{
-  background-color:$color-neutral-white;
-  border: 1px solid $color-danger-80;
-  opacity: 0.3;
- }
+  color: $color-danger-10;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.btn-icon {
+  display: flex;
+  padding-left: 8px;
+}

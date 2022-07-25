@@ -1,0 +1,67 @@
+@import '../../style/variables.scss';
+
+.text-field {
+  font-family: 'Jannal';
+}
+
+.textfield-card {
+  position: relative;
+  display: inline;
+}
+
+.textfield-card label {
+  position: absolute;
+  top: -26px;
+  right: 25px;
+  background-color: $color-neutral-white;
+  padding: 0px 6px;
+  font-size: 12px;
+}
+
+.textfield {
+  height: 52px;
+  border-radius: 33px;
+  font-size: 16px;
+  padding: 18px 20px;
+  width: 100%;
+}
+
+.textfield-default {
+  border: 1px solid $color-grey-60;
+}
+
+.textfield-active {
+  border: 1px solid $color-primary-100;
+}
+
+.textfield-filled {
+  border: 1px solid $color-grey-60;
+}
+
+.textfield-readonly {
+  border: 1px solid $color-grey-10;
+}
+
+.textfield-placeholder {
+  border: 1px solid $color-primary-100;
+}
+
+.textfield-label-default {
+  display: none;
+}
+
+.textfield-label-active {
+  color: $color-primary-100
+}
+
+.textfield-label-filled {
+  color: $color-grey-60;
+}
+
+.textfield-label-readonly {
+  color: $color-grey-10
+}
+
+.textfield-label-placeholder {
+  color: $color-primary-100
+}

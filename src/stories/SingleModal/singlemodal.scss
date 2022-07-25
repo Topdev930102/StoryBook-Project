@@ -1,4 +1,23 @@
-.singlemodal{
+@import '../../style/variables.scss';
+
+.single-body {
+  font-family: 'Jannal';
+}
+
+.singlemodal {
   width: 498px;
-  height: 278px;  
+  height: 278px;
+}
+
+.smodal-title {
+  color: $color-grey-100;
+}
+
+.smodal-content {
+  padding-top: 10px;
+  color: $color-grey-60
+}
+
+.smodal-footer {
+  padding-top: 21px
 }

@@ -1,0 +1,41 @@
+@import '../../style/variables.scss';
+
+.dropdown-card {
+  width: 290px;
+  height: 52px;
+  border: 1px solid $color-grey-60;
+  border-radius: 33px;
+}
+
+.dropdown-card:hover {
+  cursor: pointer;
+}
+
+.dropdown-hover {
+  border: 1px solid $color-primary-100;
+}
+
+.dropdown-disabled {
+  border: 1px solid $color-grey-10;
+}
+
+.dropdown-items {
+  width: 290px;
+  height: 150px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 2px 24px #1418211A;
+}
+
+.dropdown-item {
+  width: 290px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.dropdown-item:hover {
+  cursor: pointer;
+}

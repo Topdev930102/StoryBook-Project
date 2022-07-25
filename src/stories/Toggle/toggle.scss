@@ -1,0 +1,45 @@
+@import '../../style/variables.scss';
+
+.storybook-toggle {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.toggle-label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 45px;
+  height: 18px;
+  background: $color-primary-10;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+.toggle-label:after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 27px;
+  height: 27px;
+  background: $color-primary-100;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+.storybook-toggle:checked+.toggle-label {
+  background: #CBCBCB;
+}
+
+.storybook-toggle:checked+.toggle-label:after {
+  left: calc(100% + 5px);
+  transform: translateX(-100%);
+  background: #F3F3F3;
+}
+
+.toggle-label:active:after {
+  width: 30px;
+  background: #F3F3F3;
+}

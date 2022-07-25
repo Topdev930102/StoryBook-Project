@@ -1,7 +1,10 @@
 <template>
- <b-form-checkbox v-model="status" class="checkbox"  
-    @click.native="onClick"
- ></b-form-checkbox>
+<div>
+  <label class="checkbox_container">
+  <input type="checkbox" checked="checked" @change="onChange">
+  <span class="checkmark"></span>
+</label>
+</div>
 
 </template>
 <script>
@@ -9,17 +12,14 @@ import './checkbox.scss';
 export default {
   name: 'my-checkbox',
   data() {
-      return {
-        status: true
-      }
-    },
-    methods:{
-      onClick(){
-        this.status=!this.status;
-      }
-
+    return {
+      status: true
     }
-
-
- };
+  },
+  methods: {
+    onChange() {
+      this.status = !this.status;
+    }
+  }
+};
 </script>

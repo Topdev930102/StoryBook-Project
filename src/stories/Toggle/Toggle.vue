@@ -1,25 +1,22 @@
 <template>
-<div @click="onChange()">
- <v-switches v-model="enabled" color="info" theme="bootstrap" ></v-switches>
- </div>
+  <div>
+    <input type="checkbox" class="storybook-toggle" id="switch" @change="onChange" />
+    <label class="toggle-label" for="switch"></label>
+  </div>
 </template>
 <script>
 import './toggle.scss';
-
 export default {
   name: 'my-toggle',
   data() {
-      return {
-        enabled: true
-      }
-    },
-    methods:{
-      onChange(){
-        this.enabled=!this.enabled;
-        this.$emit('changed');
-      }
-
+    return {
+      status: true
     }
-
- };
+  },
+  methods: {
+    onChange() {
+      this.status = !this.status;
+    }
+  }
+};
 </script>

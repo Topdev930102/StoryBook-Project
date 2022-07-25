@@ -1,11 +1,9 @@
 <template>
-<div class="tab-nav">
-  <div v-for="item in items" class="tab-item px-4 py-1" @click="onClick(item)" :class="[ActTab===item?'active':'']">
-    {{item}}
+  <div class="tab-nav">
+    <div v-for="item in items" class="tab-item px-4 py-1" @click="onClick(item)" :class="[ActTab === item ? 'active' : '']">
+      {{ item }}
+    </div>
   </div>
-
-
-</div>
 </template>
 
 <script>
@@ -14,16 +12,16 @@ export default {
   name: 'TabButton',
   props: {
   },
-  data(){
-        return {
-            ActTab: "Tab1",
-            items:['Tab1','Tab2','Tab3']
-        };
+  data() {
+    return {
+      ActTab: "Tab1",
+      items: ['Tab1', 'Tab2', 'Tab3']
+    };
   },
 
-  methods:{
-    onClick(item){
-      this.ActTab=item;
+  methods: {
+    onClick(item) {
+      this.ActTab = item;
     }
   }
 
